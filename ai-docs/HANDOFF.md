@@ -24,7 +24,7 @@ Updated 2026-11-03. Continue prompt: [plans/2026-11-02-marketwright-continue-pro
   - `Video Game Marketing A Student Textbook.pdf`
   - `Innovation and Marketing in the Video Game Industry/` (Gower, 2010; canon-era, check what still holds)
   - `The-Art-of-Community-Building-the-New-Age-of-Participation-Second-edition/` (Bacon, epub and pdf: the one named in the literature list)
-  - `show_your_work_10_ways_to_share_your_creativity_an.epub` (Kleon; the same book is also in `Austin Kleon - Steal Like an Artist Trilogy/` as mp3 audio, skip that)
+  - `show_your_work_10_ways_to_share_your_creativity_an.epub` (Kleon; the same book is also in `Austin Kleon - Steal Like an Artist Trilogy/` as mp3 audio, skip that) **Done 2026-11-02** by the everscout beat-literature session: devlog step in references/reach.md (C-20261102-1, unreleased), beat files in indie-ai-scout; skip it
   - `Art of Community_ Seven Principles for Belonging, The - Charles Vogl.epub` (a different book from Bacon's; belonging and community design, likely useful for the Discord/group parts)
   - Maybe: `Overdeliver.epub` (direct-response marketing; check it against the ethics line before taking anything), `Press Reset ... Jason Schreier.epub` (industry context only).
   - Dreskin's *A Practical Guide to Indie Game Marketing* is not there; still a lead.
