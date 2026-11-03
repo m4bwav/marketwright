@@ -42,3 +42,6 @@ Reader agent (sed only, no Python) wrote reading/2026-11-03-overdeliver.md: memo
 
 ## [2026-11-03] books | Overdeliver and Press Reset
 Press Reset note and a second Overdeliver note (the earlier #15 note is ai-docs/reading/2026-11-03-overdeliver.md; this one adds the rejected list). Reader agent notes in ai-docs/reading (kurtz-overdeliver, schreier-press-reset); both low yield. Kurtz rejected: barrier to switch, fear copy, padded bonuses, negative-option billing, list rental. Folded: padded bonuses and barriers to leaving (ethics grey zones), the opted-in audience as test bed (reach), Dungeon Keeper row (ethics hard lines), updates and ports as marketing beats (data, launch timing). No version bump (kb text only).
+
+## [2026-11-03] check | nothing due
+Continue prompt run: weekly scan not due until about 2026-11-10, Dreskin book not owned. No work taken.
