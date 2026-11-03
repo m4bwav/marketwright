@@ -16,3 +16,6 @@ One skill (decision `decisions/2026-11-03-one-skill-and-name.md`), four procedur
 
 ## [2026-11-03] evals | T-20261103-3 and worth
 Action cases run under WSL2 (`claude plugin eval . --case "action-*" --scaffold --allow-tools Bash Write Edit --trust-plugin -j 6`). The sandbox hides the plugin's `evals/` folders, so the saltlight fixture is now seeded by a per-case scaffold (L-20261103-2). Results: roblox +1.00, steam +0.92, store +0.67. Probe without the skill missed every Valve store rule. evergreen-worth verdict TRIM (89% vs 0%, cost x1.82), recorded; the trim waits on Mark.
+
+## [2026-11-03] release | public repo, 0.1.0 and 0.1.1, wiki
+Mark: "this will be a public repo with wiki and social image". That settles the name and the own-plugin question. Created public m4bwav/marketwright (Discussions, wiki, topics), PR #1 banner (Z-Image Turbo seed 44 of 4, PC host) and social preview (centre 1280x640 crop, uploaded in Settings via the browser), v0.1.0 released with a zip. Writing the wiki found an ethics scan gap ("review in exchange for a free key" scanned clean); PR #2 fixed it with a test, v0.1.1 released. Installed as marketwright@mark-local (added to the Ai marketplace.json), updated to 0.1.1. Wiki: 8 pages, note in notes/2026-11-03-github-wiki.md. CI on GitHub (public repo, free minutes): 6 jobs green on both PRs.
