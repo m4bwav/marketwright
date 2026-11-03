@@ -1,0 +1,16 @@
+{
+  "name": "marketwright",
+  "owner": {
+    "name": "Mark Rogers"
+  },
+  "metadata": {
+    "description": "Honest indie game marketing: launch plans, Steam page reviews, trailers, communities"
+  },
+  "plugins": [
+    {
+      "name": "marketwright",
+      "source": "./",
+      "description": "Honest marketing for indie games: a launch plan from announcement to release, a Steam store page review (capsule sizes, tags, short description, screenshots, trailer, AI disclosure), a trailer and short-form cut list from gameplay clips, and where to post: communities by genre with their self-promotion rules, press kits, creator and press outreach, devlogs and post calendars. Roblox discovery too. Sourced numbers only, and every plan passes an ethics check that refuses review swaps, sock puppets, bought metrics and misleading trailers, with the honest route instead. Standard-library Python CLI for asset sizes, a launch timeline, wishlist arithmetic with sources, a page lint and the ethics scan. Evergreen."
+    }
+  ]
+}

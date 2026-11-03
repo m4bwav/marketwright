@@ -1,0 +1,545 @@
+[
+ {
+  "name": "r/IndieGaming",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/IndieGaming/",
+  "genres": [
+   "general"
+  ],
+  "subscribers": 500000,
+  "subscribers_source": "steampageanalyzer.com blog, rounded, July 2026",
+  "self_promo": "allowed",
+  "rule_summary": "Promotion allowed with frequency limits. Reposting the same game often gets removed.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/indiegames",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/indiegames/",
+  "genres": [
+   "general"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "allowed",
+  "rule_summary": "Game promotion allowed. A 2024 rule bans promotion disguised as feedback requests.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/IndieDev",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/IndieDev/",
+  "genres": [
+   "general"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "restricted",
+  "rule_summary": "Dev showcase sub. Mods enforce self-promo limits; a 2026 snapshot shows mutes for violations. Exact rule not seen.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/gamedev",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/gamedev/",
+  "genres": [
+   "general"
+  ],
+  "subscribers": 1900000,
+  "subscribers_source": "steampageanalyzer.com blog, rounded, July 2026",
+  "self_promo": "restricted",
+  "rule_summary": "Not for game promotion. Self-serving posts removed. Share work in Screenshot Saturday or Feedback Friday threads.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/playmygame",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/playmygame/",
+  "genres": [
+   "general"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "allowed",
+  "rule_summary": "Built for devs posting playable games. Flair and format rules likely. Not verified.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/DestroyMyGame",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/DestroyMyGame/",
+  "genres": [
+   "general"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "restricted",
+  "rule_summary": "Posts must ask for harsh critique of trailers or gameplay. Pure ads off topic. Not verified.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/gamedevscreens",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/gamedevscreens/",
+  "genres": [
+   "general"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "allowed",
+  "rule_summary": "Promo-tolerant for work-in-progress screenshots and clips.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/Unity3D",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/Unity3D/",
+  "genres": [
+   "engine"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "restricted",
+  "rule_summary": "Show-off posts of Unity work allowed with flair. Store links limited. Not verified.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/godot",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/godot/",
+  "genres": [
+   "engine"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "restricted",
+  "rule_summary": "Selfpromo flair for Godot-made games. Not verified.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/roblox",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/roblox/",
+  "genres": [
+   "roblox"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "restricted",
+  "rule_summary": "Player sub. Game advertising usually confined or banned. Not verified.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/robloxgamedev",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/robloxgamedev/",
+  "genres": [
+   "roblox"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "restricted",
+  "rule_summary": "Dev sub. Showcase posts with flair. Not verified.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/Games",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/Games/",
+  "genres": [
+   "general"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "restricted",
+  "rule_summary": "Dev promotion only in the monthly Indie Sunday.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/roguelikes",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/roguelikes/",
+  "genres": [
+   "roguelike"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "unknown",
+  "rule_summary": "Named as a genre target by marketing guides. Traditional roguelikes focus. Rule not seen.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/roguelites",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/roguelites/",
+  "genres": [
+   "roguelike"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "unknown",
+  "rule_summary": "Rule not seen.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/roguelikedev",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/roguelikedev/",
+  "genres": [
+   "roguelike"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "restricted",
+  "rule_summary": "Dev sub with weekly Sharing Saturday thread. Not verified.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/deckbuildinggames",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/deckbuildinggames/",
+  "genres": [
+   "deckbuilder"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "unknown",
+  "rule_summary": "No source found for a deckbuilder sub. Existence and rules unverified.",
+  "checked": "2026-11-02",
+  "confidence": "live",
+  "alive": "dead: no posts since 2025"
+ },
+ {
+  "name": "r/CozyGamers",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/CozyGamers/",
+  "genres": [
+   "cozy"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "unknown",
+  "rule_summary": "Named as a genre target by marketing guides. Rule not seen.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/StardewValley",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/StardewValley/",
+  "genres": [
+   "cozy",
+   "farming"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "restricted",
+  "rule_summary": "Has a promo wiki page limiting promotion of other games. Details not read.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/HorrorGaming",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/HorrorGaming/",
+  "genres": [
+   "horror"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "unknown",
+  "rule_summary": "Rule not seen.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/metroidvania",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/metroidvania/",
+  "genres": [
+   "metroidvania",
+   "platformer"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "unknown",
+  "rule_summary": "Named as a genre target by marketing guides. Rule not seen.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/platformers",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/platformers/",
+  "genres": [
+   "platformer"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "unknown",
+  "rule_summary": "Rule not seen.",
+  "checked": "2026-11-02",
+  "confidence": "live",
+  "alive": "dead: no posts since 2025"
+ },
+ {
+  "name": "r/citybuilders",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/citybuilders/",
+  "genres": [
+   "strategy",
+   "city builder"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "unknown",
+  "rule_summary": "Named as a genre target by marketing guides. Rule not seen.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/4Xgaming",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/4Xgaming/",
+  "genres": [
+   "strategy",
+   "4X"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "unknown",
+  "rule_summary": "Rule not seen.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/basebuildinggames",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/basebuildinggames/",
+  "genres": [
+   "simulation",
+   "colony sim",
+   "survival"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "unknown",
+  "rule_summary": "Named as a genre target by marketing guides. Rule not seen.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/puzzlevideogames",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/puzzlevideogames/",
+  "genres": [
+   "puzzle"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "unknown",
+  "rule_summary": "Rule not seen.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/PixelArt",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/PixelArt/",
+  "genres": [
+   "pixel art"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "restricted",
+  "rule_summary": "Art sub. Original art posts fine; game ads limited. Not verified.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/visualnovels",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/visualnovels/",
+  "genres": [
+   "narrative",
+   "visual novel"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "restricted",
+  "rule_summary": "Known for strict dev promo rules. Not verified.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/shmups",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/shmups/",
+  "genres": [
+   "shmup",
+   "action"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "unknown",
+  "rule_summary": "Rule not seen.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/SurvivalGaming",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/SurvivalGaming/",
+  "genres": [
+   "survival",
+   "crafting"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "unknown",
+  "rule_summary": "Rule not seen.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "r/incremental_games",
+  "platform": "reddit",
+  "url": "https://www.reddit.com/r/incremental_games/",
+  "genres": [
+   "incremental"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "restricted",
+  "rule_summary": "Named as a genre target. Known for weekly feedback threads. Not verified.",
+  "checked": "2026-11-02",
+  "confidence": "search",
+  "alive": "2026-11-03 RSS probe ok"
+ },
+ {
+  "name": "#screenshotsaturday",
+  "platform": "bluesky",
+  "url": "https://bsky.app/hashtag/screenshotsaturday",
+  "genres": [
+   "general"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "allowed",
+  "rule_summary": "Weekly Saturday WIP shares. Also tag #indiedev and #gamedev.",
+  "checked": "2026-11-02",
+  "confidence": "search"
+ },
+ {
+  "name": "gamedev.place",
+  "platform": "mastodon",
+  "url": "https://mastodon.gamedev.place/",
+  "genres": [
+   "general"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "allowed",
+  "rule_summary": "Game dev Mastodon instance. Use hashtags; server rules not read.",
+  "checked": "2026-11-02",
+  "confidence": "search"
+ },
+ {
+  "name": "itch.io community forums",
+  "platform": "itch.io",
+  "url": "https://itch.io/community",
+  "genres": [
+   "general"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "allowed",
+  "rule_summary": "Release Announcements and devlog boards exist for promotion.",
+  "checked": "2026-11-02",
+  "confidence": "unverified"
+ },
+ {
+  "name": "TIGSource forums",
+  "platform": "forum",
+  "url": "https://forums.tigsource.com/",
+  "genres": [
+   "general"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "restricted",
+  "rule_summary": "DevLogs board is the norm for long-running project threads. Not verified.",
+  "checked": "2026-11-02",
+  "confidence": "unverified"
+ },
+ {
+  "name": "Steam curators",
+  "platform": "steam",
+  "url": "https://store.steampowered.com/curators/",
+  "genres": [
+   "general"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "allowed",
+  "rule_summary": "Send keys via Steamworks Curator Connect. Curators choose.",
+  "checked": "2026-11-02",
+  "confidence": "unverified"
+ },
+ {
+  "name": "Genre Discord servers",
+  "platform": "discord",
+  "url": null,
+  "genres": [
+   "general"
+  ],
+  "subscribers": null,
+  "subscribers_source": null,
+  "self_promo": "unknown",
+  "rule_summary": "Not researched this pass. Most have a self-promo channel.",
+  "checked": "2026-11-02",
+  "confidence": "unverified"
+ }
+]
