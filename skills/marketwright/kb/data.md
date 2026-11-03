@@ -4,7 +4,7 @@ Numbers with their sources (table at the end). Medians of other games, never a f
 
 ## Wishlists
 
-- Wishlists are worth less than they were: first-month sales per wishlist fell from 0.45 (34 games, 2020-22) to 0.22 (126 games, 2023-25); six months 0.82 to 0.43; one year 0.99 to 0.70. They still predict sales about as well (R squared 0.77, then 0.72). Steam releases rose from about 14,000 (2023) to nearly 21,000 (2025). [D1]
+- Wishlists are worth less than they were: first-month sales per wishlist fell from 0.45 (34 games, 2020-22) to 0.22 (126 games, 2023-25); six months 0.82 to 0.43; one year 0.99 to 0.70. They still predict sales about as well (R squared 0.77, then 0.72; pooled: total wishlists 0.73, last-30-day adds 0.72, the two together 0.75, so velocity adds little). [D1, D19] Steam releases rose from about 14,000 (2023) to nearly 21,000 (2025). [D1]
 - First-week sales: median 10.5 percent of launch wishlists for Aug-Oct 2024 releases with 5,000+ [D7]; 0.15x for 2024-25 games with 25,000+ [D1]. The old 20 to 30 percent rules of thumb are too optimistic.
 - Popular Upcoming: the bar rose from about 7,000 wishlists to about 100,000 in June 2026 (developer estimates; Valve publishes none). A small game should not plan around it. [D3]
 - Old wishlists do not go stale in a way that matters (one game's monthly cohorts averaged 8.02 percent conversion; the Next Fest cohort 5.51). One example only. [D4]
@@ -80,3 +80,4 @@ Numbers with their sources (table at the end). Medians of other games, never a f
 | D16 | devforum.roblox.com/t/4838351 (2026-08-29) |
 | D17 | notebookcheck.net, "Getting noticed on Steam is already brutal" (2026-09-21, citing Kotaku) |
 | D18 | reddit.com/r/gamedev/comments/1xlm1zo (2026-11-02, the developer's support exchange) |
+| D19 | howtomarketagame.com/2026/10/13/wishlist-inflation-is-real-but-they-are-still-important/ (read 2026-11-03; 160 games) |

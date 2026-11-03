@@ -15,10 +15,10 @@ Topic: honest indie game marketing: Steam store pages, wishlists and festivals, 
 
 ## Open questions
 
-- Exact short description limit; 2027 Next Fest registration deadlines; how the AI disclosure renders; Discovery Queue and Upcoming mechanics.
-- Read Zukowski's 2026-10-13 post directly; Gamalytic and VG Insights; Valve Dev Days talks; GDC 2026 Vault.
+- Exact short description limit (Steamworks still says only "a few hundred characters", 2026-11-03); June 2027 Next Fest deadlines (February 2027 recorded in kb/steam.md); how the AI disclosure renders; Discovery Queue and Upcoming mechanics.
+- Gamalytic and VG Insights; Valve Dev Days talks; GDC 2026 Vault.
 - Woovit status; Lurkit and Keymailer prices from their own pages; TikTok, Bluesky, Discord and X manipulation and paid-label rules; fake scarcity rulings.
-- Every subreddit rule read in a browser.
+- Every subreddit rule read in a browser (the Chrome extension blocks reddit.com; needs Mark or another route).
 
 ## Search plan
 
