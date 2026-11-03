@@ -6,6 +6,8 @@ Not legal advice. Sources at the end, checked 2026-11-02. `MKW ethics <file>` sc
 
 Would this embarrass the developer if the community saw how it was done? If yes, it is out, whatever the rules say. If it only works while hidden, it is out.
 
+Never decide a deal (sponsor, bundle, key reseller, paid placement) while the need for money outranks what players would accept; assume it will come to light (Overdeliver ch. 9).
+
 ## Hard lines and why
 
 | Tactic | Rule or law | What it costs |
