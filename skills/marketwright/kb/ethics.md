@@ -28,6 +28,8 @@ Would this embarrass the developer if the community saw how it was done? If yes,
 - **Reddit's "10 percent rule"**: retired site-wide in May 2017 and left to each subreddit; many still apply it. Be a member first: comment and help more than you post.
 - **Discounts and founder editions**: fine when real. True prices, a real end date that holds, Steam buyers get the same deal as key buyers.
 - **AI-made assets**: disclose on Steam, the store page and the press kit; never deny it to awards or press. Expect some communities (many art and pixel art spaces) to reject AI art outright: do not post it there.
+- **Building hype**: promise what the game is. The gap between promise and game turns into negative reviews and refunds; accurate expectations beat high ones (the textbook's ch. 3 claims the opposite; rejected).
+- **Shortages and launch stock**: report real limits (keys, playtest slots) truthfully; never invent them to drive urgency.
 - **Early footage**: fine labelled "work in progress" and shown as it plays.
 - **Asking for wishlists**: fine in your own posts, news and trailers' end cards; never as a swap.
 

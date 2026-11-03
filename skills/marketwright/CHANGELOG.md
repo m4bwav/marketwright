@@ -2,6 +2,11 @@
 
 Every change to [SKILL.md](SKILL.md) and its companions, newest first, each with the reason (`R-`, `L-`, `T-` ids or "user request"). Entry shape: `### C-YYYYMMDD-n · date · summary`, then `because:`, `files:`, one sentence.
 
+### C-20261103-5 · 2026-11-03 · two more books (0.3.0)
+- because: user request (books provided 2026-11-03); notes in ai-docs/reading (Video Game Marketing textbook, Wesley and Barczak 2010)
+- files: references/plan.md, references/reach.md, kb/ethics.md
+- Plan: hook leads with what the player does, paid/earned/owned, date follows the build, long tail and post-mortem; reach: key planning, devlog audience is not the market, answering negative reviews; ethics: honest hype, no invented shortages. Both books low yield.
+
 ### C-20261103-4 · 2026-11-03 · books into the reach procedure (0.2.0)
 - because: user request (books provided 2026-11-03); notes in ai-docs/reading (Doan, Bacon, Kleon, Vogl)
 - files: references/reach.md

@@ -18,3 +18,9 @@ Output: `marketing-plan-<slug>.md` beside the user's request. Read [../kb/steam.
 ## The plan file
 
 Sections: The game in four lines · Audience and places · Where it stands (numbers with sources) · Timeline (table: date, step, owner, done) · Assets needed (each with the plugin that makes it) · What we will not do (the ethics line in two lines) · Open questions · Sources.
+
+While writing it:
+- **The four lines lead with what the player gets to do**, not the engine or features; test that hook on players who do not know the developer (playtest, demo) before pushing the page (Wesley and Barczak, Introduction and Conclusion).
+- **Paid, earned, owned** under Audience and places: what the user owns (Steam page, mailing list, Discord, devlog, earlier games), how attention will be earned (creators, press, festivals, communities), and any paid budget, stated as a number or "none" (Video Game Marketing textbook, ch. 5).
+- **The date follows the build**: never fix a release date to beat a rival or hit a season if the build will not be ready; a broken launch week costs reviews a patch does not win back (Wesley and Barczak, Conclusion and ch. 6).
+- **Past launch week**: plan the long tail (updates, sales, bundles) and a short post-mortem with the real numbers after launch (textbook ch. 6; Wesley and Barczak ch. 10).
