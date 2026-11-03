@@ -18,7 +18,7 @@ import struct
 import sys
 from pathlib import Path
 
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 HERE = Path(__file__).resolve().parent
 KB = HERE.parent / "kb"
 
@@ -243,7 +243,7 @@ def cmd_lint(a):
 SLIME = [
     (r"review (swap|exchange|trade)|swap reviews|trade reviews", "review swap",
      "Ask for reviews only outside the game, with no reward and no swap. Steam bans incentivised reviews; the FTC rule (16 CFR 465) bans paid or fake ones."),
-    (r"(free|reward|bonus|gems?|coins?|dlc|key)\b[^.\n]{0,40}\b(for|in exchange for|if you leave)\b[^.\n]{0,20}review|review[^.\n]{0,30}\bto (get|unlock|receive)", "reward for a review",
+    (r"(free|reward|bonus|gems?|coins?|dlc|key)\b[^.\n]{0,40}\b(for|in exchange for|if you leave)\b[^.\n]{0,20}review|review[^.\n]{0,30}\bto (get|unlock|receive)|review[^.\n]{0,30}\b(in exchange for|in return for|for a|for free)\b[^.\n]{0,20}(free|reward|bonus|gems?|coins?|dlc|key|copy|gift)", "reward for a review",
      "No reward of any kind for a review (Steam rule). Ask once, in a news post or newsletter, never in the game."),
     (r"(ask|prompt|popup|pop-up|remind)[^.\n]{0,40}review[^.\n]{0,30}(in[- ]game|inside the game|from the game)|in[- ]game[^.\n]{0,30}review (prompt|popup|request)", "in-game review prompt",
      "Steam bans asking for reviews from inside the game. Ask in a Steam news post, devlog or newsletter."),
