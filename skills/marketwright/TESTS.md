@@ -4,6 +4,11 @@ Test runs for [SKILL.md](SKILL.md). Cases live in `evals/evals.json`; unit tests
 
 ## Runs
 
+### T-20261103-4 · 2026-11-03 · claude plugin eval under WSL2 (12 cases x 3 runs each arm, --scaffold, -j 6) · owner-pc WSL2 · 10/12 with skill
+- Run on the trimmed SKILL.md (results 2026-11-03T03-19-22-927Z, $10.56). trap-trailer with 0.00 (was 1.00): every run refused correctly and named Valve and the ASA, then asked intake questions instead of writing the cut list, so the judge failed it. action-plan-steam 0.67 (was 0.92; one run never ran `mkw.py timeline`). action-store-1 0.89. Triggers 3/3, decoys 3/3, other traps pass.
+- worth (not recorded): pass 61% with, 33% without over 6 value cases, cost x1.72; CUT on these numbers. The gate was 89%, so the trim was reverted and the recorded TRIM verdict stands.
+- led to: C-20261103-3 (revert), L-20261103-3
+
 ### T-20261103-3 · 2026-11-03 · claude plugin eval under WSL2 Ubuntu (3 action cases x 3 runs each arm, --scaffold, --allow-tools Bash Write Edit, -j 6) · owner-pc WSL2 · 3/3 cases with skill
 - First try (results 2026-11-03T02-02-03-309Z): both fixture cases 0.00 in both arms, environment: the eval sandbox denies reads of the plugin's `evals/` folders, so `evals/fixtures/saltlight` was unreachable. Fixed with a `case.yaml` + `fixture.sh` scaffold that writes `saltlight/store-page.md` into the workspace, and prompts that point at that folder.
 - Second run (results 2026-11-03T02-05-13-807Z), about $5.10: action-plan-roblox with 1.00, without 0.00. action-plan-steam with 0.92 (one run's judge FAIL FAIL FAIL with a plan that did use 14 June Next Fest and a 10 May demo date), without 0.00. action-store-1 with 1.00, without 0.33 (bare Claude named the five rule breaks once it could read the page, but never wrote the file).
