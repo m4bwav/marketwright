@@ -2,6 +2,11 @@
 
 Every change to [SKILL.md](SKILL.md) and its companions, newest first, each with the reason (`R-`, `L-`, `T-` ids or "user request"). Entry shape: `### C-YYYYMMDD-n · date · summary`, then `because:`, `files:`, one sentence.
 
+### C-20261103-8 · 2026-11-03 · Futter, The GameDev Business Handbook (0.4.1)
+- because: user request (book changes pre-approved); learnings in the everscout beat indie-game-marketing, books/the-gamedev-business-handbook-michael (Futter 2017)
+- files: references/plan.md, references/store.md, references/reach.md, kb/ethics.md, SKILL.md (metadata.version was stale at 0.2.0)
+- Plan: shows, break-even, date slips, Early Access, ports, crowdfunding, publishers; store: other stores' copy and ratings; reach: two press waves, follow-ups, embargo, gaffes, who joins; ethics: unconfirmed features. 2017 figures marked dated.
+
 ### C-20261103-7 · 2026-11-03 · first beat scan into data, plan, reach, store (0.4.0)
 - because: everscout beat indie-game-marketing, first scan (11 notes in ~/.everscout/data/indie-game-marketing/notes)
 - files: kb/data.md (D12-D18), references/plan.md, references/reach.md, references/store.md
