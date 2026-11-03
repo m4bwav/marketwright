@@ -37,7 +37,7 @@ Every row was read on the Steamworks page named in brackets, checked 2026-11-02 
 
 - One Next Fest per game, ever. Unreleased through the fest's end, public store page, public demo by the start.
 - Demo review: 5 weeks before the fest to be in the Press Preview, 3 weeks for the fest. Press Preview starts 11 days before.
-- Three a year (February, June, October). Published: 2027-02-22 to 03-01 and 2027-06-14 to 21. 2027 registration deadlines UNVERIFIED.
+- Three a year (February, June, October). Published: 2027-02-22 to 03-01 and 2027-06-14 to 21. February 2027 (checked 2026-11-03 on partner.steamgames.com/doc/marketing/upcoming_events/nextfest/feb_2027): registration closes Jan 10 11:59pm PST; demo build and store page in review by Jan 18 for the Press Preview (Feb 11); everything else by Feb 1. June 2027 deadlines not yet published.
 - Themed fests have their own opt-in; discounted games are prioritised, Coming Soon games and demos welcome. Listed: Auto-Battler RPG Nov 16-23 2026; Desktop Companion Jan 14-18; Shop Keeper Jan 25-Feb 1; Sheep Feb 4-8; Couch Co-Op Feb 8-15; Rhythm Mar 8-15; Dinos vs Robots Mar 29-Apr 5; Racing Apr 12-19; Witch Apr 22-26; Fighting Apr 26-May 3; RTS May 10-17; Mountaineering May 31-Jun 3 (2027).
 - Seasonal sales: Winter Dec 17 2026-Jan 4 2027; Spring Mar 18-25 2027; Summer Jun 24-Jul 8 2027. A game must be released 30 days before a sale starts to join.
 
