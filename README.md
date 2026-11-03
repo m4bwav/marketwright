@@ -1,5 +1,7 @@
 # marketwright
 
+![An indie developer at a desk at dusk: a monitor showing a pixel-art game with a lighthouse, a launch calendar pinned to a corkboard with sticky notes, a paper megaphone, a mug and a sketch notebook](https://raw.githubusercontent.com/m4bwav/marketwright/main/.github/images/banner.jpg)
+
 Honest marketing for indie games. It helps a small developer get a game seen, wishlisted and bought by the people who would love it, using methods they could explain in public.
 
 - **Launch plan**: audience and hook, where the genre's players gather, a dated timeline from the store page to launch (Next Fest, demo, playtest, themed fests, discounts), sized to the hours you have.
