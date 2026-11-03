@@ -2,6 +2,11 @@
 
 Every change to [SKILL.md](SKILL.md) and its companions, newest first, each with the reason (`R-`, `L-`, `T-` ids or "user request"). Entry shape: `### C-YYYYMMDD-n · date · summary`, then `because:`, `files:`, one sentence.
 
+### C-20261103-9 · 2026-11-03 · Overdeliver: plan across the catalogue (0.4.2)
+- because: user request (book changes pre-approved); everscout beat indie-game-marketing, books/overdeliver (Kurtz 2019), the one change earlier Overdeliver reads (#15, #16) had not made
+- files: references/plan.md
+- Plan: the players a launch earns are the next game's first audience; judge channels across the catalogue.
+
 ### C-20261103-8 · 2026-11-03 · Futter, The GameDev Business Handbook (0.4.1)
 - because: user request (book changes pre-approved); learnings in the everscout beat indie-game-marketing, books/the-gamedev-business-handbook-michael (Futter 2017)
 - files: references/plan.md, references/store.md, references/reach.md, kb/ethics.md, SKILL.md (metadata.version was stale at 0.2.0)
