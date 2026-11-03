@@ -47,6 +47,7 @@ Numbers with their sources (table at the end). Medians of other games, never a f
 ## Launch timing
 
 - The weekday matters less than indies think (Zukowski, 2023). Avoid major Steam sales and big launches in your genre; lock the date six to eight weeks out (consensus, no dataset). `MKW timeline` warns on sale clashes.
+- Indie sales need not follow the AAA launch-then-drop curve: Enter the Gungeon's free content updates each brought press and a sales spike for three years, and The Flame in the Flood kept selling after launch and again on new platforms, so plan updates and ports as marketing beats (case reports, one game each, 2016-2019). [Schreier, *Press Reset*, chs. 3 and 8]
 
 ## Roblox discovery [D11]
 

@@ -21,6 +21,7 @@ Never decide a deal (sponsor, bundle, key reseller, paid placement) while the ne
 | Hidden AI use | Steam content survey [steam.md]; Clair Obscur lost Indie Game Awards wins after AI use it had denied (2025) [E10] | the denial is the scandal |
 | Fake scarcity, fake countdowns | EU UCPD and UK unfair practice rules (specific rulings not researched, UNVERIFIED) | |
 | Grey-market key sites | G2A dispute, 2019; Valve warns of fake journalists [E1, E11] | chargebacks, lost sales |
+| Pay-to-skip timers built to push purchases | Players read predatory monetisation as contempt; EA's mobile Dungeon Keeper (2014) [Schreier, *Press Reset*, ch. 8] | wide backlash, preceded the studio's closure |
 
 ## Grey zones and their honest versions
 
@@ -34,6 +35,7 @@ Never decide a deal (sponsor, bundle, key reseller, paid placement) while the ne
 - **Shortages and launch stock**: report real limits (keys, playtest slots) truthfully; never invent them to drive urgency.
 - **Early footage**: fine labelled "work in progress" and shown as it plays.
 - **Asking for wishlists**: fine in your own posts, news and trailers' end cards; never as a swap.
+- **Bonuses and deluxe editions**: fine when every item is real and described exactly; never pad a bundle with trivial items to inflate its value, and never make refunds, unsubscribing or leaving the community harder (a "barrier to switch" is a dark pattern; give players reasons to stay instead). [Kurtz, *Overdeliver*, chs. 5 and 8]
 
 ## Sources (checked 2026-11-02)
 

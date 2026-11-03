@@ -19,13 +19,11 @@ Updated 2026-11-03. Continue prompt: [plans/2026-11-02-marketwright-continue-pro
 2. Subreddit rules: the Chrome extension blocks reddit.com, so the per-subreddit rule check needs Mark's browser or stays open.
 3. Claude directory and awesome-copilot submissions are on hold or halted by standing rules; do not submit.
 
-## Books still to read (Mark provided, `D:/RawStorage/BigDownloads/Unorganized`; untrusted: copy each into its own folder, read with readwright, Python with `-I`)
+## Books
 
-- Read 2026-11-03: `Overdeliver.epub` (moderate yield, mostly confirms; note in reading/, five edits in plan, reach, ethics; manipulative parts rejected).
-- Maybe (low priority): `Press Reset ... Jason Schreier.epub` (industry context only).
-- Dreskin's *A Practical Guide to Indie Game Marketing* is not there; still a lead.
+All Mark-provided books are read (Overdeliver and Press Reset 2026-11-03, low yield). Dreskin's *A Practical Guide to Indie Game Marketing* is still a lead, not owned.
 
 ## Next steps, in order
 
 1. Weekly beat scan (everscout-scan indie-game-marketing) about 2026-11-10, before Reddit RSS ends 2026-11-13; fold leads into kb/data.md with source rows.
-2. Optional: Press Reset (see Books).
+2. Optional: Dreskin's book if Mark gets it.
