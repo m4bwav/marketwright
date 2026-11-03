@@ -2,6 +2,11 @@
 
 Every change to [SKILL.md](SKILL.md) and its companions, newest first, each with the reason (`R-`, `L-`, `T-` ids or "user request"). Entry shape: `### C-YYYYMMDD-n · date · summary`, then `because:`, `files:`, one sentence.
 
+### C-20261102-1 · 2026-11-02 · devlogs: what to post per stage, stock and flow, mailing list (unreleased)
+- because: Kleon, Show Your Work! (2014), distilled by everscout-library into the indie-game-marketing beat
+- files: references/reach.md
+- The devlog step now says what to post at each stage, to capture material while building, to time-box posting, to gather posts onto an owned page and to keep an opt-in mailing list.
+
 ### C-20261103-2 · 2026-11-03 · ethics scan: reward named after the review (0.1.1)
 - because: found while writing the wiki: "leave a review in exchange for a free key" scanned clean
 - files: scripts/mkw.py, tests

@@ -21,6 +21,8 @@ The contents list in kb/data.md. Hosted page: sitewright, or presskit.html. Incl
 
 ## Devlogs and the post calendar
 
-1. Cadence the user can keep. One home for long posts (Steam news, itch devlog, a blog), short clips on one or two social platforms the user likes.
-2. Calendar table: date, place, format, draft, asset needed, done. Tie peaks to the plan's dates (announcement, playtest, demo, Next Fest, launch).
-3. Ethics check: save, run `MKW ethics reach-<slug>.md`, fix every flag.
+1. Cadence the user can keep. One home for long posts (Steam news, itch devlog, a blog), short clips on one or two social platforms the user likes. Posting gets a time box (say 30 minutes) so it never eats the build.
+2. What to post at each stage, so a week with nothing new still has a post: early, the influences and the idea; mid-build, methods, tools and work in progress; near launch, cut content and lessons; after launch, what players do with the game. Have the user capture clips, screenshots and a line of notes as they build, so posts are picked rather than made.
+3. Stock and flow: short posts keep people aware; once a month gather the best ones into a longer post on a page the user owns (sitewright), which search keeps finding after the platforms change. Add a mailing list sign-up there with a stated cadence; only people who opted in, never imported contacts.
+4. Calendar table: date, place, format, draft, asset needed, done. Tie peaks to the plan's dates (announcement, playtest, demo, Next Fest, launch).
+5. Ethics check: save, run `MKW ethics reach-<slug>.md`, fix every flag.
