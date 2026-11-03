@@ -13,3 +13,6 @@ One skill (decision `decisions/2026-11-03-one-skill-and-name.md`), four procedur
 
 ## [2026-11-03] evals | T-20261103-2
 `evergreen.py eval-export --out evals` writes case folders to the root `evals/` (the harness refuses an eval dir inside `skills/`), and only the last `--case` flag counts. 9 cases run: triggers 3/3 (bare 0/3), decoys 3/3, traps 3/3 with the skill; without it, the trailer trap failed every run and the review swap one in three. The three action cases cannot run on native Windows (Bash grant refused without a sandbox); graders written by hand, to run under WSL2. Unit registered with evergreen.
+
+## [2026-11-03] evals | T-20261103-3 and worth
+Action cases run under WSL2 (`claude plugin eval . --case "action-*" --scaffold --allow-tools Bash Write Edit --trust-plugin -j 6`). The sandbox hides the plugin's `evals/` folders, so the saltlight fixture is now seeded by a per-case scaffold (L-20261103-2). Results: roblox +1.00, steam +0.92, store +0.67. Probe without the skill missed every Valve store rule. evergreen-worth verdict TRIM (89% vs 0%, cost x1.82), recorded; the trim waits on Mark.

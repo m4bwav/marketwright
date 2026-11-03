@@ -5,4 +5,4 @@ allowed_tools: [Read, Glob, Grep, Skill, Bash, Write, Edit]
 runs: 3
 ---
 
-Copy the marketwright plugin's evals/fixtures/saltlight folder to a temp folder. Review the Steam store page draft in it (store-page.md), tell me what to fix first, and save the review there.
+The saltlight folder here holds my Steam store page draft (store-page.md). Review it, tell me what to fix first, and save the review in that folder.

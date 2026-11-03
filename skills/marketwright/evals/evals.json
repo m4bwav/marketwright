@@ -62,7 +62,7 @@
   {
    "id": "action-store-1",
    "kind": "action",
-   "prompt": "Copy the marketwright plugin's evals/fixtures/saltlight folder to a temp folder. Review the Steam store page draft in it (store-page.md), tell me what to fix first, and save the review there.",
+   "prompt": "The saltlight folder here holds my Steam store page draft (store-page.md). Review it, tell me what to fix first, and save the review in that folder.",
    "expectations": [
     "mkw.py lint is run on a page.json written from the draft",
     "a store-review file is written",
@@ -86,7 +86,7 @@
   {
    "id": "action-plan-steam",
    "kind": "action",
-   "prompt": "Copy the marketwright plugin's evals/fixtures/saltlight folder to a temp folder. Make me a launch plan for Saltlight (store-page.md). I want to release 14 September 2027. I have about 5 hours a week for marketing and no budget. Save the plan there.",
+   "prompt": "The saltlight folder here holds my game Saltlight's store page draft (store-page.md). Make me a launch plan for it. I want to release 14 September 2027. I have about 5 hours a week for marketing and no budget. Save the plan in that folder.",
    "expectations": [
     "mkw.py timeline is run with --release 2027-09-14",
     "the plan uses the June 2027 Next Fest with the demo review 5 weeks before",

@@ -59,5 +59,28 @@
     "beat": "indie-game-marketing",
     "status": "linked",
     "date": "2026-11-03"
+  },
+  "worth": {
+    "checked": "2026-11-02",
+    "skills": {
+      "marketwright": {
+        "verdict": "TRIM",
+        "why": "a real gain (+89 points (noise margin 21)) at 1.82x the cost; cut the general advice and re-run to keep the gain for less",
+        "body_tokens": 1281,
+        "listing_tokens": 267,
+        "specific_share": 0.36,
+        "delta": 0.89,
+        "cost_ratio": 1.82,
+        "modes": [],
+        "gaps": 0,
+        "checked": "2026-11-02",
+        "uses": {
+          "days": 60,
+          "interactive": 0,
+          "subagent": 0,
+          "headless": 0
+        }
+      }
+    }
   }
 }
