@@ -17,6 +17,7 @@ Output: `reach-<slug>.md` with the places, the drafts and the calendar. The user
 4. Health is who answers newcomers and who comes back, not the member count (Bacon ch. 8-9). Write down a conflict and appeal procedure, set server hours, and say publicly when the dev is away (Bacon ch. 11).
 5. Answer complaints and negative reviews with the specific fix and name it in the patch notes; never offer anything for a changed review (textbook ch. 3).
 6. Support is marketing after launch: answer players, fix what they report, and have an outsider walk the store page, the purchase and the first ten minutes (Overdeliver ch. 8).
+7. The people who opted in (newsletter, Discord, demo players, Steam followers) are the game's best audience: tell them first, ask them which one-line pitch lands before writing the store page, and test any change against the current version in one big swing at a time. Never add anyone who did not sign up. [Kurtz, *Overdeliver*, chs. 4-5]
 
 ## Press kit
 
