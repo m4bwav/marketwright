@@ -16,4 +16,6 @@ Output: `store-review-<slug>.md`, findings ranked by impact, each with the rule 
 4. **Write findings**: `severity` (rule break, high, medium, low), what, why (Valve's rule or a dated source), the fix, and who makes it (brandwright for capsules, cinewright for trailers). A rule break leads.
 5. **Ethics check** on any copy you wrote: `MKW ethics store-review-<slug>.md`.
 
+Other stores (consoles, Epic, GOG, itch) want short, medium and long descriptions, localised copy and an IARC or regional age rating; start them weeks before the page goes live (Futter 2017, p. 108).
+
 Pixel art capsules: brandwright makes, pixelwright cleans, artwright-pixel judges.

@@ -18,7 +18,7 @@ import struct
 import sys
 from pathlib import Path
 
-VERSION = "0.4.0"
+VERSION = "0.4.1"
 HERE = Path(__file__).resolve().parent
 KB = HERE.parent / "kb"
 

@@ -32,6 +32,7 @@ Never decide a deal (sponsor, bundle, key reseller, paid placement) while the ne
 - **Discounts and founder editions**: fine when real. True prices, a real end date that holds, Steam buyers get the same deal as key buyers.
 - **AI-made assets**: disclose on Steam, the store page and the press kit; never deny it to awards or press. Expect some communities (many art and pixel art spaces) to reject AI art outright: do not post it there.
 - **Building hype**: promise what the game is. The gap between promise and game turns into negative reviews and refunds; accurate expectations beat high ones (the textbook's ch. 3 claims the opposite; rejected).
+- **Unconfirmed features**: fans hear any mention as a promise, so a feature not yet certain stays out of devlogs, interviews and replies until it is in the build (Futter 2017, p. 224).
 - **Shortages and launch stock**: report real limits (keys, playtest slots) truthfully; never invent them to drive urgency.
 - **Early footage**: fine labelled "work in progress" and shown as it plays.
 - **Asking for wishlists**: fine in your own posts, news and trailers' end cards; never as a swap.
