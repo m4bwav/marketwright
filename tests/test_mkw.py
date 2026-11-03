@@ -130,6 +130,11 @@ class Ethics(unittest.TestCase):
         for want in ("astroturfing", "reward for a review", "metric swaps", "mass posting", "misleading footage"):
             self.assertIn(want, out)
 
+    def test_reward_named_after_review(self):
+        code, out = self.scan("Ask friends to leave a review in exchange for a free key.\n")
+        self.assertEqual(code, 1)
+        self.assertIn("reward for a review", out)
+
     def test_honest_plan_passes(self):
         code, out = self.scan("Post a devlog on r/IndieDev using its flair, as the developer.\n"
                               "Send keys to 20 creators who cover colony sims, no conditions; ask them to disclose.\n"
