@@ -4,7 +4,7 @@ Updated 2026-11-03. Continue prompt: [plans/2026-11-02-marketwright-continue-pro
 
 ## State
 
-- Plugin 0.1.0 built locally at `Ai/marketwright` (git initialised on `main`; see the log for what is committed and whether a remote exists). Tests 15/15, budget green, manifest valid. Not installed, not released.
+- Plugin 0.1.0 built locally at `Ai/marketwright` (git on `main`, local only: no GitHub remote yet). Tests 15/15, budget green, manifest valid. Not installed, not released.
 - Everscout beat `indie-game-marketing` built, probed and committed in the indie-ai-scout repo. No scan yet.
 - Literature: 3 canon, 1 recent, 1 latest, all `lead`. No book provided yet.
 - Evergreen unit `skills/marketwright` (fast tier, next due 2026-11-24), linked to the beat. Not yet registered with `evergreen.py` (run its register or audit step next session).
@@ -18,8 +18,8 @@ Updated 2026-11-03. Continue prompt: [plans/2026-11-02-marketwright-continue-pro
 
 ## Next steps, in order
 
-1. Run the eval suite with baseline (`claude plugin eval . --no-publish --trust-plugin`), log T- entries, tune failures (evergreen-test, evergreen-tune).
-2. Register the unit with evergreen and run `evergreen-worth` (the static hook rated SKILL.md SUSPECT: 36 percent specific sentences).
+1. Run the three action cases (`action-*`, graders in `evals/<case>/graders/`) under WSL2 or with the evergreen-tester agent: native Windows refuses the Bash grant. Triggers, decoys and traps already pass 9/9 (T-20261103-2). One `--case` flag per run.
+2. Run `evergreen-worth` (the static hook rated SKILL.md SUSPECT: 36 percent specific sentences; the trap and trigger deltas argue KEEP). The unit is registered.
 3. First scan of the beat (everscout-scan), then feed its leads into the gaps in RESEARCH.md.
 4. Close research gaps (RESEARCH.md Open questions), especially subreddit rules read in a browser and Zukowski's October 2026 post.
 5. After Mark's yes on the name: create the GitHub repo (private until he says public), banner, wiki, release 0.1.0.

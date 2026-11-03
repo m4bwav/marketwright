@@ -20,10 +20,44 @@
   "volatile_claims": [],
   "contradiction": null,
   "events": [],
-  "streak": {"quiet": 0, "pinned_min": 0, "pinned_max": 0, "vau_quiet": 0},
-  "history": [{"date": "2026-11-03", "m": null, "interval_after": 21, "note": "created"}],
-  "counts": {"learnings": 1, "changes": 1, "research": 5, "tests": 1},
+  "streak": {
+    "quiet": 0,
+    "pinned_min": 0,
+    "pinned_max": 0,
+    "vau_quiet": 0
+  },
+  "history": [
+    {
+      "date": "2026-11-03",
+      "m": null,
+      "interval_after": 21,
+      "note": "created"
+    }
+  ],
+  "counts": {
+    "learnings": 1,
+    "changes": 1,
+    "research": 5,
+    "tests": 2
+  },
   "consolidate_every": 25,
-  "tests": {"last_run": null, "harness": "claude plugin eval", "env": "owner-pc", "cases": 0, "passed": 0, "failed": 0, "failing": [], "last_failure": null, "research_after_days": null},
-  "scout": {"beat": "indie-game-marketing", "status": "linked", "date": "2026-11-03"}
+  "tests": {
+    "last_run": "2026-11-03T02:00",
+    "harness": "claude plugin eval",
+    "env": "owner-pc",
+    "cases": 12,
+    "passed": 9,
+    "failed": 0,
+    "failing": [],
+    "last_failure": {
+      "date": "2026-11-03",
+      "note": "T-20261103-2 action cases not run: no sandbox for Bash on native Windows (environment)"
+    },
+    "research_after_days": null
+  },
+  "scout": {
+    "beat": "indie-game-marketing",
+    "status": "linked",
+    "date": "2026-11-03"
+  }
 }
