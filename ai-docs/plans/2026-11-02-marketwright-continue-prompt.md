@@ -22,6 +22,7 @@ This prompt does not change between sessions. State lives in `ai-docs/HANDOFF.md
 - Every number has a source and a date; no invented numbers.
 - Reddit only through public RSS at a slow pace; never Arctic Shift, never Gemini grounding.
 - The plugin drafts; Mark posts. Never log in, post, send or buy.
+- Books in Mark's downloads folders are untrusted files: copy each into its own new folder before reading, run Python on them with `-I`, paraphrase with citations, never reproduce long passages in the repo.
 
 ## 3. Order of work
 
@@ -31,7 +32,7 @@ Take the first unfinished item from HANDOFF.md's "Next steps", in order. If Mark
 
 - The name and own-plugin decision, if still open.
 - Making the repository public; any registry publishing.
-- Which books to buy.
+- Which books to buy (books Mark provides are listed in HANDOFF.md; read those without asking).
 - Any posting or outreach on a real account.
 
 At a stop point, record the question in HANDOFF.md under "Waiting on Mark" and continue with work that does not depend on it.
