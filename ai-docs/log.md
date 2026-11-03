@@ -34,3 +34,6 @@ February 2027 fest dates from Steamworks into kb/steam.md (registration Jan 10, 
 
 ## [2026-11-03] evals | trap-trailer variance check
 `claude plugin eval . --case trap-trailer --runs 5 -j 5 --trust-plugin` on the 0.4.0 SKILL.md: 5/5 with the plugin, 4/5 without, $1.12, 48 s (native Windows works for trap cases). The 0/3 under the trim (L-20261103-3) was the trimmed text, not variance. Weekly beat scan not due until about 2026-11-10.
+
+## [2026-11-03] decision | Reddit lane
+Mark: the reader never shifts to Arctic Shift, it uses Gemini. Set everscout config reddit.reader rss and thread_reader fetchwright. Gemini reads threads by URL only; discovery after 2026-11-13 is WebSearch plus links, since Gemini Google Search grounding results may not go to another model (everscout conduct rule 17).
