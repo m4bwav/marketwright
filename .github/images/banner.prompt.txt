@@ -1,0 +1,5 @@
+seed: 44 (of 11, 22, 33, 44)
+model: Z-Image Turbo, ComfyUI (Windows host), 1536x640, 9 steps cfg 1.0
+social-preview.jpg: centre 1280x640 crop
+prompt:
+An indie game developer's small desk at dusk seen at a low angle: a monitor showing a colourful pixel-art game, a hand-drawn launch calendar pinned to a corkboard with string and sticky notes, a printed poster mock-up of a game capsule art with a fantasy lighthouse, a megaphone made of folded paper, a coffee mug and a notebook of hand-sketched charts going up, warm lamp light and blue window light, cinematic photo, shallow depth of field, no text, no logos
