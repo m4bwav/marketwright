@@ -2,6 +2,16 @@
 
 Every change to [SKILL.md](SKILL.md) and its companions, newest first, each with the reason (`R-`, `L-`, `T-` ids or "user request"). Entry shape: `### C-YYYYMMDD-n · date · summary`, then `because:`, `files:`, one sentence.
 
+### C-20261103-4 · 2026-11-03 · books into the reach procedure (0.2.0)
+- because: user request (books provided 2026-11-03); notes in ai-docs/reading (Doan, Bacon, Kleon, Vogl)
+- files: references/reach.md
+- New section on running the game's own community (set it up before linking, rituals, earned roles, health, conflict and burnout), plus outreach and devlog lines, each with a chapter citation.
+
+### C-20261103-3 · 2026-11-03 · trim tried and reverted; trap cases get answer regexes
+- because: T-20261103-4
+- files: evals/evals.json (SKILL.md unchanged)
+- The trim (shorter description, no per-use evergreen.json read, merged closing sections) cut pass from 89% to 61%, so it was reverted. Trap cases now carry `regex on the answer:` lines so `worth --ab` can grade them.
+
 ### C-20261102-1 · 2026-11-02 · devlogs: what to post per stage, stock and flow, mailing list (unreleased)
 - because: Kleon, Show Your Work! (2014), distilled by everscout-library into the indie-game-marketing beat
 - files: references/reach.md
