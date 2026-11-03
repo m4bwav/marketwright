@@ -2,6 +2,16 @@
 
 Every change to [SKILL.md](SKILL.md) and its companions, newest first, each with the reason (`R-`, `L-`, `T-` ids or "user request"). Entry shape: `### C-YYYYMMDD-n · date · summary`, then `because:`, `files:`, one sentence.
 
+### C-20261103-7 · 2026-11-03 · first beat scan into data, plan, reach, store (0.4.0)
+- because: everscout beat indie-game-marketing, first scan (11 notes in ~/.everscout/data/indie-game-marketing/notes)
+- files: kb/data.md (D12-D18), references/plan.md, references/reach.md, references/store.md
+- October 2026 Next Fest benchmarks and AI disclosure share; paid ads and paid showcase anecdotes; Roblox Sponsored Ads retention report; Steamworks onboarding up to 30 business days; capsule judged at real size and traffic read by surface.
+
+### C-20261103-6 · 2026-11-03 · ethics scan matches both word orders (0.4.0)
+- because: HANDOFF next step 3; a probe of 55 reordered sentences flagged only 17
+- files: scripts/mkw.py, tests/test_mkw.py
+- Each rule now built with near() (either order, one sentence); unit tests carry a flagged set per rule and 18 honest sentences that must stay clean.
+
 ### C-20261103-5 · 2026-11-03 · two more books (0.3.0)
 - because: user request (books provided 2026-11-03); notes in ai-docs/reading (Video Game Marketing textbook, Wesley and Barczak 2010)
 - files: references/plan.md, references/reach.md, kb/ethics.md

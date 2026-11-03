@@ -18,7 +18,7 @@ import struct
 import sys
 from pathlib import Path
 
-VERSION = "0.3.0"
+VERSION = "0.4.0"
 HERE = Path(__file__).resolve().parent
 KB = HERE.parent / "kb"
 
@@ -239,40 +239,73 @@ def cmd_lint(a):
     return 1 if any(l == "ERROR" for l, _ in out) else 0
 
 
-# (pattern, what it is, honest version). Grey-zone rows say so.
+def near(a, b, gap=40):
+    """a and b in either order, at most gap characters apart in one sentence."""
+    w = r"[^.\n]{0,%d}" % gap
+    return r"(?:%s)%s(?:%s)|(?:%s)%s(?:%s)" % (a, w, b, b, w, a)
+
+
+REVIEW = r"\breview(s|ed|ing)?\b(?! cop(y|ies)| keys?)"
+REWARD = r"\b(free|reward\w*|bonus|gems?|coins?|dlc|keys?|gifts?|prizes?|discount|skins?)\b"
+AI = r"\b(ai|generative|gen-?ai|midjourney|stable diffusion|chatgpt)\b"
+PAID = r"\b(paid|sponsor\w*|gifted|free keys?|partnership|pay(ing)? (an? |the )?(streamer|creator|youtuber|influencer)s?)\b"
+SAY = r"(disclos\w*|mention\w*|tell\w*|say\w*|label\w*|list\w*|tag\w*|#ad)"
+
+# (pattern, what it is, honest version). Grey-zone rows say so. Each rule matches both word orders
+# (near); tests/test_mkw.py holds a flagged and a clean sentence set for every rule.
 SLIME = [
-    (r"review (swap|exchange|trade)|swap reviews|trade reviews", "review swap",
+    (near(r"\bswap\w*|\b(?<!in )exchang\w*|\btrad(e|es|ed|ing)\b(?! press)", REVIEW, 25), "review swap",
      "Ask for reviews only outside the game, with no reward and no swap. Steam bans incentivised reviews; the FTC rule (16 CFR 465) bans paid or fake ones."),
-    (r"(free|reward|bonus|gems?|coins?|dlc|key)\b[^.\n]{0,40}\b(for|in exchange for|if you leave)\b[^.\n]{0,20}review|review[^.\n]{0,30}\bto (get|unlock|receive)|review[^.\n]{0,30}\b(in exchange for|in return for|for a|for free)\b[^.\n]{0,20}(free|reward|bonus|gems?|coins?|dlc|key|copy|gift)", "reward for a review",
+    (near(REWARD, r"\b(leave|leaving|write|writing|post|posting|for (a|every|each|your)|in exchange for|in return for|if you leave)\s+"
+               r"(a |an |your |their |us )?(steam |positive |good |5-star )?reviews?\b")
+     + r"|review (it|us|the game)\b[^.\n]{0,40}\b(get|receive|unlock|we (send|give))|" + REVIEW
+     + r"[^.\n]{0,30}\b(in exchange for|in return for|to (get|unlock|receive))\b", "reward for a review",
      "No reward of any kind for a review (Steam rule). Ask once, in a news post or newsletter, never in the game."),
-    (r"(ask|prompt|popup|pop-up|remind)[^.\n]{0,40}review[^.\n]{0,30}(in[- ]game|inside the game|from the game)|in[- ]game[^.\n]{0,30}review (prompt|popup|request)", "in-game review prompt",
+    (near(r"in[- ]game|inside the game|from the game|the game (asks|prompts|shows|reminds)|pop[- ]?ups?", r"\breview", 50),
+     "in-game review prompt",
      "Steam bans asking for reviews from inside the game. Ask in a Steam news post, devlog or newsletter."),
-    (r"sock ?puppet|alt(ernate)? accounts?|fake accounts?|second account|burner accounts?|pose as a (player|fan)|pretend(ing)? to be a (player|fan)", "astroturfing",
+    (r"sock ?puppet|alt(ernate)? accounts?|fake accounts?|second account|burner accounts?|"
+     r"\b(make|create|open|use|from|with)\b[^.\n]{0,20}\b(several|a few|multiple|extra|other|new)\b[^.\n]{0,10}accounts|"
+     r"\b(pose|posing|pretend\w*)( to be| as)( an?)? (\w+ )?(players?|fans?|customers?)\b|"
+     r"as if (they|we|i) (were|was) (an? )?(\w+ )?(players?|fans?|customers?)\b", "astroturfing",
      "Post as yourself, say you are the developer every time. Communities find sock puppets (the 2025 Trap Plan case) and the ban follows."),
     (r"astroturf", "astroturfing", "Post as yourself and say you made it."),
-    (r"buy(ing)? (wishlists|followers|likes|upvotes|views|reviews)|purchased? (followers|wishlists|upvotes)|bot (followers|upvotes)", "bought metrics",
+    (r"\b(buy\w*|bought|purchas\w*|pay(ing)? for)\s+(\d[\d,k]*\s+|some\s+|more\s+|fake\s+|cheap\s+)*"
+     r"(wishlists|followers|likes|upvotes|views|reviews|subscribers)\b|"
+     r"(followers|wishlists|upvotes|views|likes|subscribers)[^.\n]{0,30}\b(paid|follower|bot) (service|accounts?|farm)|"
+     r"bot (followers|upvotes|views|accounts)", "bought metrics",
      "Never buy followers, views, upvotes or wishlists: the FTC rule bans fake social indicators, and fake wishlists wreck the numbers you plan with."),
-    (r"wishlist[- ]for[- ]wishlist|w4w|follow[- ]for[- ]follow|f4f|upvote[- ]for[- ]upvote|sub4sub", "metric swaps",
+    (near(r"\bswap\w*|\btrad(e|es|ed|ing)\b|\bexchang\w*", r"\b(wishlists?|follows?|followers|upvotes?|subs|subscribers)\b", 25)
+     + r"|wishlist[- ]for[- ]wishlist|w4w|follow[- ]for[- ]follow|f4f|upvote[- ]for[- ]upvote|sub4sub", "metric swaps",
      "Skip swaps: the wishlists come from people who will not buy, and Steam reads them as real interest."),
-    (r"(vote|upvote) ring|ask (friends|discord|the team) to upvote|brigad", "vote manipulation",
+    (r"(vote|upvote) ring|brigad|\b(ask|get|have|tell)\w*\b[^.\n]{0,30}\b(friends|discord|the team|server|community|everyone|family)\b"
+     r"[^.\n]{0,20}\bupvot", "vote manipulation",
      "Never organise votes. Share the post where people can find it and let it stand on its own."),
-    (r"(post|share|crosspost|spam)[^.\n]{0,30}\b(every|all|many|\d{2,}) (subreddits|subs|communities|servers)", "mass posting",
+    (r"(post|share|crosspost|spam)\w*[^.\n]{0,30}\b(every|all|many|\d{2,}|as many)\b[^.\n]{0,15}\b(subreddits?|subs|communities|servers|forums|groups)\b",
+     "mass posting",
      "Pick the two or three communities where the game fits, read each one's rules, use their flair and threads, answer comments, space posts out."),
-    (r"pre-?rendered|cinematic (footage|trailer)|target render|bullshot|(fake|mock|staged)[- ]gameplay|not (actual|real) gameplay|footage (from|of) a (build|version) we (cut|removed|dropped)", "misleading footage",
+    (r"pre-?rendered|cinematic (footage|trailer)|target render|bullshot|(fake|mock|staged)[- ]gameplay|not (actual|real) gameplay|"
+     r"render\w*[^.\n]{0,30}\bas (actual |real |in-game )?gameplay|"
+     + near(r"\b(footage|trailer|gameplay|clips?)\b", r"\b(cut|removed|dropped|scrapped)\b", 30), "misleading footage",
      "Show the game as it plays. Label early footage (work in progress). A disclaimer does not cure a misleading ad (ASA, Playrix 2020)."),
-    (r"(fake|artificial) (scarcity|urgency)|only \d+ (copies|keys) left|(last chance|limited time|ending soon)(?![^.\n]{0,60}\b(until|ends?|on) \w+ \d)", "urgency without a real date",
+    (r"(fake|artificial) (scarcity|urgency)|only \d+ (copies|keys) left|\bhurry\b|(last chance|limited time|ending soon)(?![^.\n]{0,60}\b(until|ends?|on) \w+ \d)", "urgency without a real date",
      "Grey zone: a real offer is fine. Give the true end date and keep it; never fake stock or countdowns."),
-    (r"(hide|don'?t mention|do not mention|skip|avoid)( the)? (ai|generative|midjourney|stable diffusion)|no one will know[^.\n]{0,30}ai|without disclosing", "hidden AI use",
+    (near(r"(don'?t|do not|won'?t|will not|never|without|not to|no need to|skip)\s+(\w+\s+)?" + SAY
+          + r"|\bhid(e|ing)\b|keep (it )?(quiet|secret)|\bleave\b[^.\n]{0,15}\boff\b|no one will know", AI)
+     + r"|\bleave\b[^.\n]{0,20}" + AI + r"[^.\n]{0,20}\boff\b|without disclosing", "hidden AI use",
      "Disclose AI content players see on Steam's content survey, the store page and the press kit. Hiding it is what turned the backlash cases."),
-    (r"(don'?t|do not|without) (disclos|label|tag)\w*[^.\n]{0,40}(paid|sponsor|gifted|free key|partnership)|(paid|sponsored)[^.\n]{0,40}(without|no) (disclosure|#ad|label)", "undisclosed paid coverage",
+    (near(r"\b(don'?t|do not|won'?t|not|never|without|skip|no)\b[^.\n]{0,15}" + SAY + r"|\bno (disclosure|label)", PAID),
+     "undisclosed paid coverage",
      "Paid or gifted coverage is disclosed (#ad, the platform's paid partnership label). FTC and ASA both require it; ask creators to disclose free keys."),
-    (r"(only|just) (positive|good) reviews|(key|copy|copies)[^.\n]{0,40}(if|only if|as long as) (they|you)[^.\n]{0,30}(positive|good|recommend)", "conditional keys",
+    (r"(only|just) (positive|good) reviews|"
+     + near(r"\bkeys?\b|\bcop(y|ies)\b", r"\b(only|if|as long as|provided)\b[^.\n]{0,40}\b(positive|good|recommend\w*|favou?rable)\b"
+            r"|\b(positive|good|favou?rable)\b[^.\n]{0,25}\b(required|only)\b"), "conditional keys",
      "Send keys with no condition on the verdict. Steam allows press and creator copies; a condition on the verdict makes it a paid review."),
-    (r"review bomb", "review bombing",
+    (r"review[- ]?bomb|bomb\w* (their|its|the|his|her) reviews", "review bombing",
      "Never organise or invite review bombs, for or against anyone."),
-    (r"(grey|g2a|key reseller)[^.\n]{0,30}(market|site)", "grey-market keys",
+    (r"\bg2a\b|kinguin|eneba|key resell\w*|(grey|gray)[- ]market", "grey-market keys",
      "Sell through Steam and stores you trust; send creator keys yourself, log them, and vet requesters (Valve warns of fake journalists)."),
-    (r"dark pattern|confirmshaming|fomo (pop|timer)|pay to (skip|win)[^.\n]{0,20}nag", "dark pattern",
+    (r"dark pattern|confirmshaming|fomo (pop|timer)|fake (countdown|timer)|pay to (skip|win)[^.\n]{0,20}nag", "dark pattern",
      "Remove it. A store page or game that tricks players costs more goodwill than it earns."),
 ]
 

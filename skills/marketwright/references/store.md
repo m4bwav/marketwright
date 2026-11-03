@@ -5,7 +5,7 @@ Output: `store-review-<slug>.md`, findings ranked by impact, each with the rule 
 1. **Get the page.** A live URL (read it), a saved page, or the user's draft. Write what can be checked into `page.json` beside the review: `short_description`, `about`, `tags` (in order), `screenshots` (count), `trailers` (count), `first_trailer_gameplay` (true or false), `capsule_text` (every word on the capsules), `uses_ai`, `ai_disclosure`. Run `MKW lint page.json`.
 2. **Assets.** If the user has the image files, `MKW assets <folder>`: missing sizes, pre-2024 sizes, screenshots under 1920 x 1080.
 3. **Judge what the script cannot**, in this order (the order a shopper meets them):
-   - Capsule: does it say the genre at small-capsule size (462 x 174)? Is the name legible there? Text beyond name and subtitle is a rule break, not a style note.
+   - Capsule: does it say the genre at small-capsule size (462 x 174)? Is the name legible there? Text beyond name and subtitle is a rule break, not a style note. Judge it at real size in a row of the genre's rivals, and design the small capsule on its own rather than cropping the header. When the complaint is a low click rate, read the traffic breakdown by surface first: a broad fest audience clicks less than similar-game browsers, so the art may not be the problem.
    - First trailer: gameplay in the first seconds, readable muted, the core loop shown. Handoff: references/trailer.md.
    - Short description: genre, hook and the player's verb in the first sentence; no time-bound phrases.
    - Screenshots: first four show the core loop at play, not menus or art; varied; all are gameplay.

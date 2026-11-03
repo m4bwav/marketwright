@@ -2,6 +2,7 @@
 import contextlib
 import io
 import json
+import re
 import struct
 import sys
 import tempfile
@@ -146,6 +147,58 @@ class Ethics(unittest.TestCase):
         self.assertEqual(code, 0, out)
         code, out = self.scan("Limited time founder price, act fast!\n")
         self.assertEqual(code, 1)
+
+    # Every rule, in more than one word order; the scan must flag each with its own rule.
+    FLAGGED = {
+        "review swap": ["We could swap reviews with another dev", "Reviews swapped with other devs",
+                        "exchange reviews with a friend's game"],
+        "reward for a review": ["Leave a review and get a free key", "Write a review to receive bonus gems",
+                                "For every review we give a free DLC", "review it and we send you a gift"],
+        "in-game review prompt": ["Pop up a review request in game after level 3",
+                                  "After the boss, the game asks players to review it on Steam",
+                                  "Remind players inside the game to leave a review"],
+        "astroturfing": ["Post from an alt account", "Make a few accounts and pretend to be fans",
+                         "Have friends post as if they were random players"],
+        "bought metrics": ["Buy 500 wishlists", "Get followers from a paid service", "purchase upvotes",
+                           "pay for wishlists", "buy some fake reviews"],
+        "metric swaps": ["Swap wishlists with other devs", "Trade follows with other studios", "wishlist swap thread"],
+        "vote manipulation": ["Ask our Discord to upvote the post", "Get the team to upvote it in the first hour",
+                              "have friends upvote"],
+        "mass posting": ["Post it to 20 subreddits", "Crosspost to every subreddit we can find",
+                         "share in as many subreddits as possible"],
+        "misleading footage": ["Use the cinematic render as gameplay", "Show footage from a cut build",
+                               "trailer with gameplay we removed"],
+        "urgency without a real date": ["Hurry, limited time only!", "Only 50 keys left", "Last chance to wishlist"],
+        "hidden AI use": ["Don't disclose the AI art", "Leave AI off the content survey",
+                          "We won't mention we used Midjourney", "Keep quiet about the generative AI"],
+        "undisclosed paid coverage": ["Ask the creator not to label the sponsorship", "Pay a streamer and skip the #ad",
+                                      "sponsored video with no disclosure", "Tell them not to say it's paid"],
+        "conditional keys": ["Send keys only to creators who will recommend it",
+                             "Keys only if they promise a positive review", "positive coverage required for a key"],
+        "review bombing": ["Get people to review-bomb the rival game", "Bomb their reviews"],
+        "grey-market keys": ["Sell keys on G2A", "Put keys on a key reseller site", "use a grey market"],
+        "dark pattern": ["Use confirmshaming on the unsubscribe", "Add a fake countdown timer"],
+    }
+    CLEAN = ["Send free keys to press and creators with no conditions", "Ask for reviews in a Steam news post after launch",
+             "Run paid ads on Reddit to get wishlists", "Disclose the AI art on the store page and the content survey",
+             "Creators disclose free keys with #ad", "Post in two subreddits that fit and follow their rules",
+             "Our trailer shows only gameplay captured from the current build", "The 50% launch discount ends on March 9",
+             "Trade press reviews matter less than creators", "Send review copies to curators",
+             "Answer negative reviews politely", "We avoid AI art in the capsule",
+             "Ask your Discord for feedback on the trailer", "Reply to every comment for the first day",
+             "Tell the creator the key is free and ask them to label it #ad", "Read every review and fix what players hit",
+             "Show the trailer to friends before release", "Send keys to creators who cover the genre"]
+
+    def test_every_rule_both_orders(self):
+        for what, sentences in self.FLAGGED.items():
+            for s in sentences:
+                with self.subTest(rule=what, sentence=s):
+                    self.assertTrue(any(w == what and re.search(p, s, re.I) for p, w, _ in mkw.SLIME))
+
+    def test_honest_sentences_stay_clean(self):
+        for s in self.CLEAN:
+            with self.subTest(sentence=s):
+                self.assertEqual([w for p, w, _ in mkw.SLIME if re.search(p, s, re.I)], [])
 
 
 class Communities(unittest.TestCase):

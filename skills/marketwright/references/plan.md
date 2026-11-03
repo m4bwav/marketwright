@@ -6,7 +6,7 @@ Output: `marketing-plan-<slug>.md` beside the user's request. Read [../kb/steam.
 2. **Who and where.** The players of the closest three games on the platform. `MKW communities --genre <genre> --general` lists where they gather and each place's rule. Pick at most five places to be a member of.
 3. **Where the game stands.** Wishlists now, if any. `MKW wishlists --count <n>` for honest ranges at launch; say plainly when the count is too low for the launch the user hopes for and what moves it (a public page early, a demo, Next Fest, themed fests).
 4. **The timeline.** `MKW timeline --release <date>` (add `--nextfest <start>` for a newer fest). Then add the beats it cannot know, each with an owner and a date:
-   - Store page public as early as the page is good (months, not the two-week minimum), capsule from brandwright.
+   - Store page public as early as the page is good (months, not the two-week minimum), capsule from brandwright. Start Steamworks onboarding six weeks before that: verification took up to 30 business days in late 2026 (kb/data.md).
    - Announcement trailer and first posts; devlog cadence the user can keep (weekly beats monthly beats abandoned).
    - Playtest (Steam Playtest is free and collects signups) and the demo; Next Fest needs the demo reviewed 5 weeks ahead for the press preview.
    - Themed fests that fit the genre (dates in kb/steam.md), press and creator outreach waves (references/reach.md), launch discount decision.
