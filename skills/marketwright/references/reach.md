@@ -28,6 +28,7 @@ The contents list in kb/data.md. Hosted page: sitewright, or presskit.html. Incl
 3. Email draft: their name, the similar game they covered, the hook in one line, one GIF or trailer link, the key offer with no strings, embargo date if any, one line asking them to disclose the free copy. Short; never a template blast. The subject line carries the game's one true differentiator; any proof it cites is real and checkable. Pitch what their audience gets, not what the coverage means to you; if you cannot say why their viewers would care, skip them (Doan chs. 8-9).
    Plan keys and festival slots months ahead, picked by whom the target players follow (Wesley and Barczak, Conclusion).
 4. Tools: Keymailer, Lurkit (kb/data.md, with their status), Steam Curator Connect.
+5. Paid showcases and paid posts: ask for past placements' impressions and wishlist results before paying, and require the #ad label (kb/data.md, paid exposure). Track every paid link with UTM parameters and judge it by cost per wishlist.
 
 ## Devlogs and the post calendar
 
