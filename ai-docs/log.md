@@ -31,3 +31,6 @@ First everscout scan of indie-game-marketing: 41 sources, 691 items, 11 notes (6
 
 ## [2026-11-03] research | 2027 Next Fest deadlines, Zukowski post
 February 2027 fest dates from Steamworks into kb/steam.md (registration Jan 10, Press Preview review Jan 18, all items Feb 1). Read Zukowski's 2026-10-13 wishlist post directly (D19, pooled R squared, velocity adds little). Short description limit still unpublished. Subreddit rules stay open: reddit.com blocked in the browser extension.
+
+## [2026-11-03] evals | trap-trailer variance check
+`claude plugin eval . --case trap-trailer --runs 5 -j 5 --trust-plugin` on the 0.4.0 SKILL.md: 5/5 with the plugin, 4/5 without, $1.12, 48 s (native Windows works for trap cases). The 0/3 under the trim (L-20261103-3) was the trimmed text, not variance. Weekly beat scan not due until about 2026-11-10.
