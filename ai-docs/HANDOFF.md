@@ -7,7 +7,7 @@ Updated 2026-11-03. Continue prompt: [plans/2026-11-02-marketwright-continue-pro
 - Plugin 0.1.0 built locally at `Ai/marketwright` (git on `main`, local only: no GitHub remote yet). Tests 15/15, budget green, manifest valid. Not installed, not released.
 - Everscout beat `indie-game-marketing` built, probed and committed in the indie-ai-scout repo. No scan yet.
 - Literature: 3 canon, 1 recent, 1 latest, all `lead`. No book provided yet.
-- Evergreen unit `skills/marketwright` (fast tier, next due 2026-11-24), linked to the beat. Not yet registered with `evergreen.py` (run its register or audit step next session).
+- Evergreen unit `skills/marketwright` (fast tier, next due 2026-11-24), registered, linked to the beat. Evals: 9 of 12 cases pass with the skill; the 3 action cases wait for WSL2.
 
 ## Waiting on Mark
 
