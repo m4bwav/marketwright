@@ -37,3 +37,5 @@ February 2027 fest dates from Steamworks into kb/steam.md (registration Jan 10, 
 
 ## [2026-11-03] decision | Reddit lane
 Mark: the reader never shifts to Arctic Shift, it uses Gemini. Set everscout config reddit.reader rss and thread_reader fetchwright. Gemini reads threads by URL only; discovery after 2026-11-13 is WebSearch plus links, since Gemini Google Search grounding results may not go to another model (everscout conduct rule 17).
+## [2026-11-03] books | Overdeliver
+Reader agent (sed only, no Python) wrote reading/2026-11-03-overdeliver.md: memoir of newsletter direct mail, moderate yield, mostly confirms the ethics line. Kept: opted-in list first and hook from a developer interview (plan.md), postage test for each post and support as marketing (reach.md), no deals decided under money pressure (ethics.md). Rejected: fear-led copy, lock-in, rented lists, copying swipe files, lifetime-value ad spend. The ethics scan flags the note itself (it names the rejected tactics); expected.

@@ -21,10 +21,11 @@ Updated 2026-11-03. Continue prompt: [plans/2026-11-02-marketwright-continue-pro
 
 ## Books still to read (Mark provided, `D:/RawStorage/BigDownloads/Unorganized`; untrusted: copy each into its own folder, read with readwright, Python with `-I`)
 
-- Maybe (ask nothing, low priority): `Overdeliver.epub` (direct response; check against the ethics line first), `Press Reset ... Jason Schreier.epub` (industry context only).
+- Read 2026-11-03: `Overdeliver.epub` (moderate yield, mostly confirms; note in reading/, five edits in plan, reach, ethics; manipulative parts rejected).
+- Maybe (low priority): `Press Reset ... Jason Schreier.epub` (industry context only).
 - Dreskin's *A Practical Guide to Indie Game Marketing* is not there; still a lead.
 
 ## Next steps, in order
 
 1. Weekly beat scan (everscout-scan indie-game-marketing) about 2026-11-10, before Reddit RSS ends 2026-11-13; fold leads into kb/data.md with source rows.
-2. Optional: Overdeliver and Press Reset (see Books).
+2. Optional: Press Reset (see Books).
