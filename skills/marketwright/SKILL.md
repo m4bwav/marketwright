@@ -41,7 +41,7 @@ Market in ways the community would respect if it saw every step. Never: fake or 
 3. **Count with the script.** Asset sizes (`MKW assets`), the timeline (`MKW timeline`), wishlist arithmetic (`MKW wishlists`), page lint (`MKW lint`), communities (`MKW communities`).
 4. **Draft, never post.** You write posts, emails and calendars; the user posts and sends from their own accounts. Never log in, post, send or buy anything.
 5. **Communities are read before they are used.** Name each community's rule and its check date; tell the user to read the rules page before posting. A rule not read live is marked as such.
-6. **Call, do not copy.** Capsule and key art: brandwright (pixel art: pixelwright, judged by artwright). Trailer editing: cinewright. Trailer music: musicwright-game. The game's design and hook: ludowright. A game website or press page: sitewright. A decision with options: askwright. Roblox engine work: roblox-agent.
+6. **Call, do not copy.** Capsule and key art: brandwright (pixel art: pixelwright, judged by artwright). Trailer editing: cinewright. Trailer music: musicwright-game. Trailer sound effects: sfxwright, when installed. The game's design and hook: ludowright. A game website or press page: sitewright. A decision with options: askwright. Roblox engine work: roblox-agent.
 
 ## Output
 
