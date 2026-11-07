@@ -1,6 +1,6 @@
 {
   "name": "marketwright",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "Honest marketing for indie games: a launch plan from announcement to release, a Steam store page review (capsule sizes, tags, short description, screenshots, trailer, AI disclosure), a trailer and short-form cut list from gameplay clips, and where to post: communities by genre with their self-promotion rules, press kits, creator and press outreach, devlogs and post calendars. Roblox discovery too. Sourced numbers only, and every plan passes an ethics check that refuses review swaps, sock puppets, bought metrics and misleading trailers, with the honest route instead. Standard-library Python CLI for asset sizes, a launch timeline, wishlist arithmetic with sources, a page lint and the ethics scan. Evergreen.",
   "author": {
     "name": "Mark Rogers"
