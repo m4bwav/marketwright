@@ -2,7 +2,7 @@
 
 Every change to [SKILL.md](SKILL.md) and its companions, newest first, each with the reason (`R-`, `L-`, `T-` ids or "user request"). Entry shape: `### C-YYYYMMDD-n · date · summary`, then `because:`, `files:`, one sentence.
 
-### C-20261106-1 · 2026-11-06 · Sfxwright, when installed
+### C-20261106-1 · 2026-11-06 · Sfxwright, when installed (0.4.3)
 - because: user request
 - files: references/trailer.md (sfxwright note)
 - Hand sound effects to sfxwright when present and read its sounds.json; this plugin's own steps stay as the fallback.
