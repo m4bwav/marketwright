@@ -2,6 +2,11 @@
 
 Every change to [SKILL.md](SKILL.md) and its companions, newest first, each with the reason (`R-`, `L-`, `T-` ids or "user request"). Entry shape: `### C-YYYYMMDD-n · date · summary`, then `because:`, `files:`, one sentence.
 
+### C-20261112-1 · 2026-11-12 · In-engine capture before the cut (0.4.4)
+- because: user request (technique harvest 2026-11-12, C-20261112-E)
+- files: SKILL.md (Call, do not copy)
+- Clips are captured in engine (Unity Recorder or a scripted camera) to a clips folder, then cut with cinewright-edit; posting stays the owner's.
+
 ### C-20261106-1 · 2026-11-06 · Sfxwright, when installed (0.4.3)
 - because: user request
 - files: references/trailer.md (sfxwright note)
