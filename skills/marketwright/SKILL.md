@@ -3,7 +3,7 @@ name: marketwright
 description: "Honest marketing for indie games: get a game seen, wishlisted and bought without dark patterns. A launch plan from announcement to release (audience, hook, Next Fest, demo, playtest, timing), a Steam store page review (capsule sizes, tags, short description, screenshots, trailer slot, AI disclosure), a trailer and short-form cut list from gameplay clips, and where to post: subreddits and communities by genre with their self-promotion rules, press kits, creator and press outreach, devlogs, post calendars. Roblox discovery too. Sourced numbers only, each with its source. Every plan passes an ethics check, and slimy tactics get refused with the honest version. Use on 'market my game', 'how do I get wishlists', 'review my Steam page', 'launch plan', 'when should I release', 'Next Fest', 'trailer from my clips', 'which subreddits should I post my game in', 'press kit', 'email to streamers', 'how many sales will 5000 wishlists get'. Also 'refresh marketwright'. Not for game design (ludowright), art (brandwright, pixelwright) or editing video (cinewright)."
 license: MIT
 metadata:
-  version: "0.4.3"
+  version: "0.4.4"
 ---
 
 # marketwright
@@ -41,7 +41,7 @@ Market in ways the community would respect if it saw every step. Never: fake or 
 3. **Count with the script.** Asset sizes (`MKW assets`), the timeline (`MKW timeline`), wishlist arithmetic (`MKW wishlists`), page lint (`MKW lint`), communities (`MKW communities`).
 4. **Draft, never post.** You write posts, emails and calendars; the user posts and sends from their own accounts. Never log in, post, send or buy anything.
 5. **Communities are read before they are used.** Name each community's rule and its check date; tell the user to read the rules page before posting. A rule not read live is marked as such.
-6. **Call, do not copy.** Capsule and key art: brandwright (pixel art: pixelwright, judged by artwright). Trailer editing: cinewright. Trailer music: musicwright-game. Trailer sound effects: sfxwright, when installed. The game's design and hook: ludowright. A game website or press page: sitewright. A decision with options: askwright. Roblox engine work: roblox-agent.
+6. **Call, do not copy.** Capsule and key art: brandwright (pixel art: pixelwright, judged by artwright). Trailer editing: cinewright; capture in engine first (Unity Recorder or a scripted camera) to a clips folder, then cut with cinewright-edit. Trailer music: musicwright-game. Trailer sound effects: sfxwright, when installed. The game's design and hook: ludowright. A game website or press page: sitewright. A decision with options: askwright. Roblox engine work: roblox-agent.
 
 ## Output
 
