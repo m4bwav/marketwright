@@ -16,7 +16,7 @@ Output: `reach-<slug>.md` with the places, the drafts and the calendar. The user
 3. Roles (playtester, helper, moderator) are earned by contribution and never sold. A paid supporter tier is labelled as paid. Pick moderators who want the group to thrive, not the loudest players (Vogl ch. 8, 10).
 4. Health is who answers newcomers and who comes back, not the member count (Bacon ch. 8-9). Write down a conflict and appeal procedure, set server hours, and say publicly when the dev is away (Bacon ch. 11).
 5. Regulars over-represent skilled players: also watch whether new names keep joining and who leaves (Futter 2017, p. 193).
-6. Answer complaints and negative reviews with the specific fix and name it in the patch notes; never offer anything for a changed review (textbook ch. 3).
+6. Answer complaints and negative reviews with the specific fix and name it in the patch notes; never offer anything for a changed review (textbook ch. 3). When a patch fixes the faults a reviewer or creator named, send them one short note saying what changed, with no ask to update the review (Hill-Whittall 2015, ch. 4; book rule, unverified).
 7. Support is marketing after launch: answer players, fix what they report, and have an outsider walk the store page, the purchase and the first ten minutes (Overdeliver ch. 8).
 8. The people who opted in (newsletter, Discord, demo players, Steam followers) are the game's best audience: tell them first, ask them which one-line pitch lands before writing the store page, and test any change against the current version in one big swing at a time. Never add anyone who did not sign up. [Kurtz, *Overdeliver*, chs. 4-5]
 

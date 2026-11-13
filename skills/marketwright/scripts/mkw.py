@@ -18,7 +18,7 @@ import struct
 import sys
 from pathlib import Path
 
-VERSION = "0.4.4"
+VERSION = "0.4.5"
 HERE = Path(__file__).resolve().parent
 KB = HERE.parent / "kb"
 
@@ -229,6 +229,12 @@ def cmd_lint(a):
         say("WARN", "no trailer; the first trailer autoplays muted and becomes the micro trailer")
     if page.get("first_trailer_gameplay") is False:
         say("WARN", "the first trailer is not mostly gameplay; Valve highly recommends it is")
+    bullets = [l for l in page.get("about", "").splitlines() if re.match(r"\s*([-*\u2022]|\d+[.)])\s", l)]
+    if len(bullets) > 5:
+        say("WARN", "About has %d bullets; five or fewer short ones get read, the rest skimmed (book rule, unverified)" % len(bullets))
+    head = page.get("press_headline", "")
+    if len(head) > 70:
+        say("WARN", "press headline is %d characters; keep it near 70 so it shows whole in inboxes and search (book rule, unverified)" % len(head))
     if page.get("uses_ai") and not page.get("ai_disclosure"):
         say("ERROR", "the game uses AI content players see but the page has no AI disclosure")
     for level, msg in out:

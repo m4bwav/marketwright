@@ -2,7 +2,7 @@
 
 Output: `store-review-<slug>.md`, findings ranked by impact, each with the rule or source it rests on. Read [../kb/steam.md](../kb/steam.md).
 
-1. **Get the page.** A live URL (read it), a saved page, or the user's draft. Write what can be checked into `page.json` beside the review: `short_description`, `about`, `tags` (in order), `screenshots` (count), `trailers` (count), `first_trailer_gameplay` (true or false), `capsule_text` (every word on the capsules), `uses_ai`, `ai_disclosure`. Run `MKW lint page.json`.
+1. **Get the page.** A live URL (read it), a saved page, or the user's draft. Write what can be checked into `page.json` beside the review: `short_description`, `about`, `tags` (in order), `screenshots` (count), `trailers` (count), `first_trailer_gameplay` (true or false), `capsule_text` (every word on the capsules), `uses_ai`, `ai_disclosure`, and `press_headline` when a press release is drafted. Run `MKW lint page.json`.
 2. **Assets.** If the user has the image files, `MKW assets <folder>`: missing sizes, pre-2024 sizes, screenshots under 1920 x 1080.
 3. **Judge what the script cannot**, in this order (the order a shopper meets them):
    - Capsule: does it say the genre at small-capsule size (462 x 174)? Is the name legible there? Text beyond name and subtitle is a rule break, not a style note. Judge it at real size in a row of the genre's rivals, and design the small capsule on its own rather than cropping the header. When the complaint is a low click rate, read the traffic breakdown by surface first: a broad fest audience clicks less than similar-game browsers, so the art may not be the problem.

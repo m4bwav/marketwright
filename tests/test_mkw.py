@@ -113,6 +113,20 @@ class Lint(unittest.TestCase):
                      "no AI disclosure"):
             self.assertIn(want, out)
 
+    def test_about_bullets_and_headline(self):
+        base = {"short_description": "Build a lighthouse colony on a drowned coast.",
+                "tags": ["Colony Sim", "Base Building", "Pixel Graphics", "Survival", "Singleplayer"],
+                "screenshots": 6, "trailers": 1}
+        code, out = self.lint(dict(base, about="Intro line.\n- a\n- b\n- c\n- d\n- e",
+                                   press_headline="Saltlight, a lighthouse colony sim, launches 3 March"))
+        self.assertNotIn("bullets", out)
+        self.assertNotIn("headline", out)
+        code, out = self.lint(dict(base, about="Intro.\n- a\n* b\n1. c\n2) d\n- e\n- f",
+                                   press_headline="x" * 71))
+        self.assertEqual(code, 0, out)
+        self.assertIn("About has 6 bullets", out)
+        self.assertIn("press headline is 71 characters", out)
+
 
 class Ethics(unittest.TestCase):
     def scan(self, text):

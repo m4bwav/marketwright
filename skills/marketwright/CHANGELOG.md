@@ -2,6 +2,11 @@
 
 Every change to [SKILL.md](SKILL.md) and its companions, newest first, each with the reason (`R-`, `L-`, `T-` ids or "user request"). Entry shape: `### C-YYYYMMDD-n · date · summary`, then `because:`, `files:`, one sentence.
 
+### C-20261113-1 · 2026-11-13 · Indie Game Developer Handbook (0.4.5)
+- because: user request (book harvest indie-dev-handbook); Hill-Whittall, Indie Game Developer Handbook (2015), chs. 2-4; book rules, unverified
+- files: references/reach.md, references/trailer.md, references/plan.md, references/store.md, scripts/mkw.py (lint), tests/test_mkw.py
+- Reach: tell reviewers when a patch fixes what they named; trailer: no licensed commercial music; plan: an unsure date is a risk, announce a window; lint warns on more than five About bullets and a press headline over 70 characters.
+
 ### C-20261112-1 · 2026-11-12 · In-engine capture before the cut (0.4.4)
 - because: user request (technique harvest 2026-11-12, C-20261112-E)
 - files: SKILL.md (Call, do not copy)

@@ -11,6 +11,7 @@ Topic: honest indie game marketing: Steam store pages, wishlists and festivals, 
 - R-20261103-3 (subject, ethics and law): Steam review and key rules; FTC 16 CFR 465 (in force 2024-10-21); UK DMCC fake review ban (2025-04-06); ASA/CAP influencer guidance updated October 2026; sourced backlash cases. Baseline.
 - R-20261103-4 (tooling): no existing skill, plugin or MCP server covers honest indie marketing with community rules; closest are coreyhaines31/marketingskills (general), a game-marketer skill (claudskills.com), steam-publisher, and Steam and Reddit MCP servers (Reddit ones need API access). Confidence: medium (aggregator pages).
 - R-20261103-5 (practice, communities): 31 subreddits probed alive or dead by RSS on 2026-11-03 (r/deckbuildinggames and r/platformers dead); rules pages not readable by fetch. Stored in kb/communities.json.
+- R-20261113-1 (practice, book): Hill-Whittall, Indie Game Developer Handbook (2015), chs. 2-4: re-contact reviewers after a fix, no licensed trailer music, an unsure date is a risk, short About bullets and press headlines near 70 characters. Book rules, unverified; 2015 store details dated.
 - Linked everscout beat `indie-game-marketing` (created 2026-11-03): its notes are leads only.
 
 ## Open questions
