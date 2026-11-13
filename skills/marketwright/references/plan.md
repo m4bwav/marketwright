@@ -28,6 +28,7 @@ While writing it:
 - **Past launch week**: plan the long tail (updates, sales, bundles) and a short post-mortem with the real numbers after launch (textbook ch. 6; Wesley and Barczak ch. 10).
 - **Shows and fests in person**: before booking, write the one goal (show, research, network, pitch), the full cost (booth, travel, lodging, the build days lost) and the cheaper event that might do the same. Every show gets its own demo-build line in the timeline two to three weeks before (Futter 2017, p. 38-39, 105).
 - **Break-even line** under Budget: spend divided by what the developer nets per copy, after the store cut and any publisher recoup, gives the copies needed. Use today's store terms, not the book's 2017 figures (Futter 2017, p. 41, 120-122).
+- **An unsure date stays private**: if the team doubts it can hit a date, list that as a risk and announce a window instead (Hill-Whittall 2015, ch. 2; book rule, unverified).
 - **A date that moves** is announced once, with the reason and the new date; repeated slips cost trust (Futter 2017, p. 47-48).
 - **Early Access** only for a replayable, content-led game the team can finish, with a named owner answering the forum from day one. Put the 1.0 scope on the page, announce price changes ahead, and give 1.0 news of its own (held-back features or a platform launch), since leaving Early Access is not news by itself (Futter 2017, p. 189-202).
 - **A late port** gets news of its own: ship it with a content update and a sale across versions (Futter 2017, p. 129-130).
