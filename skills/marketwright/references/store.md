@@ -13,6 +13,7 @@ Output: `store-review-<slug>.md`, findings ranked by impact, each with the rule 
    - About section: GIFs of play, short paragraphs, textless images where it will be localised.
    - AI disclosure present when players see AI content; plain wording.
    - Coming Soon timing against the release (at least two weeks; earlier is better).
+   - Comparing versions (a new capsule, short description or first screenshot): Steam has no split test, so this is a before and after. Write the hypothesis and the bar first, change one thing, compare equal whole weeks (at least one, two is better) on the same surfaces in the traffic breakdown, avoid sale and fest weeks, and drop a change that shows nothing after a fair run. A before and after is weaker evidence than a split; say so in the finding (Eisenberg and Quarto-vonTivadar, *Always Be Testing*, 2008, ch. 11, 45; book rule, unverified).
 4. **Write findings**: `severity` (rule break, high, medium, low), what, why (Valve's rule or a dated source), the fix, and who makes it (brandwright for capsules, cinewright for trailers). A rule break leads.
 5. **Ethics check** on any copy you wrote: `MKW ethics store-review-<slug>.md`.
 

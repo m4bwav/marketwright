@@ -2,6 +2,11 @@
 
 Every change to [SKILL.md](SKILL.md) and its companions, newest first, each with the reason (`R-`, `L-`, `T-` ids or "user request"). Entry shape: `### C-YYYYMMDD-n · date · summary`, then `because:`, `files:`, one sentence.
 
+### C-20261118-1 · 2026-11-18 · Channel tagging, cross-promotion, before-and-after comparisons (0.4.6)
+- because: user request (book round 21); Levinson, Guerrilla Marketing (4th ed., 2007), ch. 3, 14; Eisenberg and Quarto-vonTivadar, Always Be Testing (2008), ch. 11, 45; book rules, unverified
+- files: references/plan.md, references/store.md
+- Plan: one UTM tag per link and cut dead channels, disclosed cross-promotion with matched developers; store: a version swap is a before and after with a written hypothesis, one change, equal whole weeks.
+
 ### C-20261113-1 · 2026-11-13 · Indie Game Developer Handbook (0.4.5)
 - because: user request (book harvest indie-dev-handbook); Hill-Whittall, Indie Game Developer Handbook (2015), chs. 2-4; book rules, unverified
 - files: references/reach.md, references/trailer.md, references/plan.md, references/store.md, scripts/mkw.py (lint), tests/test_mkw.py
