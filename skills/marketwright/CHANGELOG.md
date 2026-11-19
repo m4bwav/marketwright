@@ -2,6 +2,11 @@
 
 Every change to [SKILL.md](SKILL.md) and its companions, newest first, each with the reason (`R-`, `L-`, `T-` ids or "user request"). Entry shape: `### C-YYYYMMDD-n · date · summary`, then `because:`, `files:`, one sentence.
 
+### C-20261119-1 · 2026-11-19 · Web demo wishlist funnel
+- because: user request (technique harvest 2026-11-19, demo wishlist funnel)
+- files: references/plan.md, tests/test_mkw.py
+- Plan: wishlist button on pause, demo-end and load-error screens of a web demo, one utm_campaign per placement, paired with a shown-and-clicked event.
+
 ### C-20261118-1 · 2026-11-18 · Channel tagging, cross-promotion, before-and-after comparisons (0.4.6)
 - because: user request (book round 21); Levinson, Guerrilla Marketing (4th ed., 2007), ch. 3, 14; Eisenberg and Quarto-vonTivadar, Always Be Testing (2008), ch. 11, 45; book rules, unverified
 - files: references/plan.md, references/store.md

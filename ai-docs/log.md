@@ -48,3 +48,4 @@ Continue prompt run: weekly scan not due until about 2026-11-10, Dreskin book no
 
 ## [2026-11-03] books | Futter, The GameDev Business Handbook (0.4.1)
 All 13 pre-approved feed:marketwright rows from the everscout beat learnings (books/the-gamedev-business-handbook-michael) folded: plan.md (shows, break-even, date slips, Early Access, ports, crowdfunding, publishers), store.md (other stores), reach.md (press waves, embargo, gaffes, who joins), kb/ethics.md (unconfirmed features). None rejected. SKILL.md metadata.version fixed from a stale 0.2.0.
+- 2026-11-19: plan.md gained the web demo wishlist funnel (placement UTM per screen plus shown/clicked event).
