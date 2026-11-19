@@ -227,5 +227,12 @@ class Communities(unittest.TestCase):
         self.assertIn("genres known", out)
 
 
+class References(unittest.TestCase):
+    def test_web_demo_funnel_placements(self):
+        text = (Path(__file__).resolve().parent.parent / "skills/marketwright/references/plan.md").read_text(encoding="utf-8")
+        for word in ("utm_campaign", "pause", "demo-end", "load-error", "wishlist_cta_shown"):
+            self.assertIn(word, text)
+
+
 if __name__ == "__main__":
     unittest.main()
